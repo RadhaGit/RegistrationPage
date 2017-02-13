@@ -1,0 +1,54 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>JobSeeker Registration</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./Html,Bootstrap,CSS Example_files/bootstrap.min.css">
+   <link rel="stylesheet" href="./Html,Bootstrap,CSS Example_files/font_awesome.css">
+  <script src="./Html,Bootstrap,CSS Example_files/jquery.min.js"></script>
+  <script src="./Html,Bootstrap,CSS Example_files/bootstrap.min.js"></script>
+  <style type="text/css">
+  body{
+    background-color:lightblue; 
+    margin-left: 200px;
+  }
+  </style>
+</head>
+<body>
+  <form>
+  <img style="margin-left:250px" src="./Html,Bootstrap,CSS Example_files/j_ser_13.jpg" class="img-rounded" height="150px" width="250px">
+<div class="container">
+<div class="row">
+  <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+   First Name:<br><input type="text" name="first_name"><br>
+   Address Line1:<br><input type="text" name="add_line1"><br>
+   City:<br><input type="text" name="city"><br>
+   Email Id:<br><input type="text" name="email_id"><br>
+   Shifts:<br>
+   <input type="checkbox" name="shift_type" value="Cell">First Shift
+   <input type="checkbox" name="shift_type" value="Work">Second Shift
+   <input type="checkbox" name="shift_type" value="Work">Third Shift
+   <input type="checkbox" name="shift_type" value="Work">Rotating Shift<br>
+   To day's Date:<i class="fa fa-calendar-minus-o"></i><br><input type="date" name="date"><br>
+   </div>
+<div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+   Last Name:<br><input type="text" name="last_name"><br>
+   Address Line2:<br><input type="text" name="add_line2"><br>
+   State:<br><input type="text" name="state"><br>
+   Enter phone number:
+   <br><table><tbody><tr><td><input type="radio" name="phone_type" value="Home">Home</td><td><input type="number" name="phone_no"></td></tr>
+   <tr><td><input type="radio" name="phone_type" value="Cell">Cell</td><td><input type="number" name="phone_no"></td></tr>
+   <tr><td><input type="radio" name="phone_type" value="Work">Work</td><td><input type="number" name="phone_no"></td></tr>
+   </tbody></table>
+   Prefer to contact via:<br>
+    <select name="contact_method">
+    <option name="Email">Email</option>
+    <option name="Cell">Cell</option>
+    <option name="Home">Home</option>
+    <option name="Work">Work</option>
+    </select><br>
+    <button style="margin-left:-180px" type="button" class="btn btn-primary btn-lg">Submit
+   </button></div> 
+</div>
+</div>
+</form>
+</body></html>
